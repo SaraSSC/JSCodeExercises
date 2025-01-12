@@ -13,6 +13,7 @@ div#text{
 }
 
 div#game{
+    width: 450px;
     max-width: 500px;
     max-height: 400px;
     background-color: white;
