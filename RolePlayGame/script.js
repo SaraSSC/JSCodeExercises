@@ -322,7 +322,7 @@ function pick(guess){
             text.innerText += `Wrong! You lose 10 health!`;
             healthText.innerText = health -= 10;
              if (health <= 0){
-                lose();
+                lose();}
         };
     }
 }
@@ -332,5 +332,5 @@ function pickTwo(){
 }
 
 function pickEight(){
-    pick(8);
+    pick(8)
 }
